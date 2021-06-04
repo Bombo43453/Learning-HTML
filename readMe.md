@@ -1,0 +1,2 @@
+#Just A Basic thing
+you can use this on your own if you want. Just use live server on visual studio code. The site is very simple and there is not too much that you need to do. This was mainly for me to learn HTML basics for a javascript related project. 
