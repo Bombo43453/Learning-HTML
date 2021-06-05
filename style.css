@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Centry Gothic;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.001)), url(Images/Background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%)
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #2a0b2a;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.8s ease;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+    margin-top: 0px;
+}
+.main{
+    max-width: 1350px;
+}
+
+ul li.active a {
+    background-color: white;
+    color: black;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.title h1{
+    color: #15263a;
+    font-size: 50px;
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: #2a0b2a;
+    text-decoration: none;
+}
+.title2 h2{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.title2 p{
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.title2 h3{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+html {
+    scroll-behavior: smooth;
+}
+/** Clients Section **/
+
+.clients {
+    background-color: #f6f6f7 ;
+    text-align: center;
+    
+}
+
+.clients img{
+    width: 19%;
+    padding: 15px 0;
+    margin: 0 auto;
+    /* transition: -.4s ease-in-out; */
+}
+.clients img:hover{
+    filter: none;
+    /* transform: scale(1.1) */
+}
+
+.footer{
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: White;
+    text-align: center;
+}
+.about-section {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    padding: 16px;
+    background-color: rgba(112, 84, 8, 0.253);
+    text-align: center;
+    color: white;
+  }
+  .who-am-i{
+    position: absolute;
+    top: 37%;
+    left: 47%;
+    padding: 15px;
+    text-align: center;
+    color: rgba(27, 23, 23, 0.664);
+  }
+  .column {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    text-align: center;
+  }
+  .bouttitle {
+    color: grey;
+  }
+  .container {
+    padding: 0 16px;
+  }
+  .container::after, .row::after {
+    clear: both;
+    display: table;
+  }
+  .boutbutton {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  .boutbutton:hover {
+    background-color: #555;
+  }
